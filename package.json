@@ -1,0 +1,23 @@
+{
+  "name": "hoe-rijd-ik-nl",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "firebase init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lodybo/hoerijdiknl.git"
+  },
+  "author": "Lody Borgers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lodybo/hoerijdiknl/issues"
+  },
+  "homepage": "https://github.com/lodybo/hoerijdiknl",
+  "devDependencies": {
+    "firebase-tools": "^3.0.7"
+  }
+}
