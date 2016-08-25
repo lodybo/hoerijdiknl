@@ -1,1 +1,1 @@
-angular.module("hoerijdiknl", ["firebase"]);
+angular.module("hoerijdiknlApp", ["firebase"]);

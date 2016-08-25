@@ -1,0 +1,14 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /Applications/MAMP/htdocs/hoerijdiknl/node_modules/.bin/firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     darwin
+[debug] Node Version: v4.4.3
+[debug] Time:         Thu Aug 25 2016 21:30:56 GMT+0200 (CEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Applications/MAMP/htdocs/hoerijdiknl
+[info] Public Directory: app
+[info] 
+[info] Server listening at: http://localhost:5000
