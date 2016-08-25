@@ -1,1 +1,1 @@
-angular.module("hoerijdiknl", []);
+angular.module("hoerijdiknl", ["firebase"]);

@@ -7,9 +7,14 @@
 
     <body>
         
-        <div ng-app>
-            <div ng-controller>
-                
+        <div class="container" ng-app>
+            <div class="row" ng-controller="ListCtrl">
+                <div class="col-xs-6 col-xs-push-6">
+                    <h1>Accounts</h1>
+                    <ul>
+                        <li ng-repeat="account in $scope.accounts" ng-bind="account.name"></li>
+                    </ul>
+                </div>
             </div>
         </div>
         
@@ -28,6 +33,11 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+        <!-- AngularFire -->
+        <script src="https://cdn.firebase.com/libs/angularfire/2.0.2/angularfire.min.js"></script>
     </body>
 </html>
