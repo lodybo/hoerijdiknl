@@ -12,3 +12,17 @@
 [info] Public Directory: app
 [info] 
 [info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Users\C38259\Apps ABN\NodeJS\node.exe C:\Users\C38259\_code\hoerijdiknl\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v6.4.0
+[debug] Time:         Mon Aug 29 2016 11:38:14 GMT+0200 (West-Europa (zomertijd))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\C38259\_code\hoerijdiknl
+[info] Public Directory: app
+[info] 
+[info] Server listening at: http://localhost:5000
