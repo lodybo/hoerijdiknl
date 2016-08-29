@@ -3,4 +3,13 @@ angular.module("hoerijdiknlApp").controller("ListCtrl", ["$scope", "$firebaseObj
     
     // Download every account
     $scope.accounts = $firebaseObject(reference.child("accounts"));
+    
+    // Download every vehicle
+    $scope.vehicles = $firebaseObject(reference.child("vehicles"));
+    
+    // Download every message
+    $scope.messages = $firebaseObject(reference.child("messages"));
+    
+    // Query
+    $scope.query = $firebaseObject(reference.child("accounts").orderByChild("name").equalTo("Lody Borgers"));
 }]);
