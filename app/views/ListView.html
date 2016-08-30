@@ -1,30 +1,30 @@
-<div class="row" ng-controller="ListCtrl">
-                <div class="col-xs-6 col-xs-push-4">
-                    <h1>Accounts</h1>
-                    <ul>
-                        <li ng-repeat="account in accounts">
-                            <p ng-bind="account.name"></p>
-                            <small>Owns vehicles: <span ng-bind="account.licenses.join(',')"></span></small>
-                        </li>
-                    </ul>
-                    
-                    <h1>Vehicles</h1>
-                    <ul>
-                        <li ng-repeat="vehicle in vehicles">
-                            <p>{{ vehicle.brand }} {{ vehicle.model }}</p>
-                            <small>Color: <span ng-bind="vehicle.color"></span></small>
-                        </li>
-                    </ul>
-                    
-                    <h1>Messages</h1>
-                    <ul>
-                        <li ng-repeat="message in messages">
-                            <p ng-bind="message.message"></p>
-                            <small>Commented by <span ng-bind="message.account"></span> on <span>{{ message.date | date:"dd/MM/yyyy 'at' HH:mm:ss" }}</span></small>
-                        </li>
-                    </ul>
-                    
-                    <h1>Query</h1>
-                    <pre ng-bind="query | json"></pre>
-                </div>
-            </div>
+<div class="row">
+    <div class="col-xs-6 col-xs-push-4">
+        <h1>Accounts</h1>
+        <ul>
+            <li ng-repeat="account in accounts">
+                <p ng-bind="account.name"></p>
+                <small>Owns vehicles: <span ng-bind="account.licenses.join(',')"></span></small>
+            </li>
+        </ul>
+        
+        <h1>Vehicles</h1>
+        <ul>
+            <li ng-repeat="vehicle in vehicles">
+                <p>{{ vehicle.brand }} {{ vehicle.model }}</p>
+                <small>Color: <span ng-bind="vehicle.color"></span></small>
+            </li>
+        </ul>
+        
+        <h1>Messages</h1>
+        <ul>
+            <li ng-repeat="message in messages">
+                <p ng-bind="message.message"></p>
+                <small>Commented by <span ng-bind="message.account"></span> on <span>{{ message.date | date:"dd/MM/yyyy 'at' HH:mm:ss" }}</span></small>
+            </li>
+        </ul>
+        
+        <h1>Query</h1>
+        <pre ng-bind="query | json"></pre>
+    </div>
+</div>

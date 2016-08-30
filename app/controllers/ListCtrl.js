@@ -1,4 +1,6 @@
 angular.module("hoerijdiknlApp").controller("ListCtrl", ["$scope", "$firebaseObject", function ($scope, $firebaseObject) {
+    $scope.test = "BBBB";
+    
     var reference = firebase.database().ref();
     
     // Download every account
