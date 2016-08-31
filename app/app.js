@@ -9,6 +9,10 @@ angular.module("hoerijdiknlApp", ["firebase", "ngRoute"])
             templateUrl: 'views/ProfileView.html',
             controller: 'ProfileCtrl'
         })
+        .when("/vehicles/:state", {
+            templateUrl: "views/VehiclesView.html",
+            controller: "VehiclesCtrl"
+        })
         .otherwise({
             redirectTo: "/"
         });
