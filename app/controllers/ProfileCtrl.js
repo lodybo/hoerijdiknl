@@ -1,3 +1,3 @@
-angular.module("hoerijdiknl").controller("ProfileCtrl", ["$scope",  "$firebaseObject", "$firebaseArray", function ($scope, $firebaseObject, $firebaseArray) {
+angular.module("hoerijdiknlApp").controller("ProfileCtrl", ["$scope",  "$firebaseObject", "$firebaseArray", function ($scope, $firebaseObject, $firebaseArray) {
     
 }]);
