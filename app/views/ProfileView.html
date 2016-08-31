@@ -1,5 +1,15 @@
 <div class="row">
     <div class="col-lg-7">
         <h1>Profiel</h1>
+        <p>Dit is een voorbeeldprofiel</p>
+    </div>
+
+    <div class="col-lg-5">
+        <h2>Auto's</h2>
+        <a href="vehicles/add" class="btn btn-primary btn-small">Nieuwe auto toevoegen</a>
+
+        <ul>
+            <li ng-repeat="vehicle in vehicles" ng-bind="vehicle | json"></li>
+        </ul>
     </div>
 </div>
